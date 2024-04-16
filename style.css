@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+    max-width: 1600px;
+    background-color: #FAFAFC;
+}
+
+.malumot{
+    font-size: 36px;
+    font-weight: 600;
+    margin-block-end: 15px;
+}
+
+.our-work{
+    margin-left: 159px;
+    margin-top: 100px;
+}
+
+.cards1{
+    padding-inline: 161px;
+    display: flex;
+    max-width: 1600px;
+    justify-content: space-between;
+    margin-block-end: 15px;
+}
+.cards2{
+    padding-inline: 161px;
+    display: flex;
+    max-width: 1600px;
+    justify-content: space-between;
+    margin-block-end: 100px;
+}
+
+
+.card1{
+    background-color: #FFF;
+    max-width: 418px;
+    padding: 15px 20px;
+    margin-block-end: 15px;
+   
+}
+
+.card2{
+    background-color: #FFF;
+    max-width: 418px;
+    padding: 15px 20px;
+    margin-block-end: 15px;
+}
+
+.card3{
+    background-color: #FFF;
+    max-width: 418px;
+   padding: 15px 20px;
+   margin-block-end: 15px;
+}
+
+.card4{
+    background-color: #FFF;
+    max-width: 418px;
+   padding: 15px 20px;
+   margin-block-end: 15px;
+}
+
+.card5{
+    background-color: #FFF;
+    max-width: 418px;
+   padding: 15px 20px;
+   margin-block-end: 15px;
+}
+
+.card6{
+    background-color: #FFF;
+    max-width: 418px;
+   padding: 15px 20px;
+   margin-block-end: 15px;
+}
+
+
+.subscribe{
+    background-color:#666DDF;
+    max-width: 1280px;
+    margin-left: 160px;
+    color: #FFF;
+    display: flex;
+    margin-block-end: 100px;
+}
+
+.email{
+    display: flex;
+    max-width: 1064px;
+   
+}
+
+footer{
+   padding-inline: 160px;
+    margin-block-end: 50px;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+@media screen and (max-width: 1150px) {
+    footer{
+        display: grid;
+        flex-grow: 1;
+    }
+  }
+
+
+  @media screen and (max-width: 900px) {
+    .email{
+        display: grid;
+    }
+  }
+
+
+  @media screen and (max-width: 870px) {
+    .cards1{
+        display: grid;
+    }
+  }
+
+  @media screen and (max-width: 870px) {
+    .cards2{
+        display: grid;
+    }
+  }
+
+  @media screen and (max-width: 870px) {
+    .cards2{
+        flex-grow: 1;
+    }
+  }
